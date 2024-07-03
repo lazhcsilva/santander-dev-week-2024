@@ -14,4 +14,15 @@ public abstract class BaseItem {
     private String icon;
     private String description;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }

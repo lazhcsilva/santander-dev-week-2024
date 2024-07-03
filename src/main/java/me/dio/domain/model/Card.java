@@ -13,4 +13,15 @@ public class Card {
     @Column(name = "available_limit")
     private double limit;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public double getLimit() {
+        return limit;
+    }
 }

@@ -18,4 +18,23 @@ public class Account {
     @Column(name = "additional_limit")
     private double limit;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getAgency() {
+        return agency;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public double getLimit() {
+        return limit;
+    }
 }
